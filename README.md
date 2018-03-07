@@ -18,7 +18,7 @@ $ bash start.sh # Need to install `parity` before you run this script
 ```
 $ cd parity
 
-# Change config.toml and poa-spec.json as needed
+# Change genesis.json as needed
 
 $ bash clean.sh # Run this whenever you want to start over
 $ bash start.sh
