@@ -1,0 +1,5 @@
+geth/data/*
+!geth/data/.gitkeep
+
+parity/data/*
+!parity/data/.gitkeep
