@@ -11,7 +11,6 @@ nohup geth \
   --datadir "$PWD/data1"  \
   --syncmode 'full' \
   --port 30303  \
-  # --rpcapi 'personal,db,eth,net,web3,txpool,miner' \
   --rpc --rpcport 8545  \
   --wsport 8546 --rpccorsdomain "*"  \
   --wsorigins "*"  \
@@ -29,7 +28,6 @@ nohup geth \
   --datadir "$PWD/data2" \
   --syncmode 'full' \
   --port 40303 \
-  # --rpcapi 'personal,db,eth,net,web3,txpool,miner' \
   --rpc --rpcport 9545 \
   --wsport 9546 --rpccorsdomain "*" \
   --wsorigins "*" \

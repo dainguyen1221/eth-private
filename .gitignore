@@ -1,5 +1,11 @@
-geth/data/*
-!geth/data/.gitkeep
+geth/data1/*
+!geth/data1/.gitkeep
+
+geth/data2/*
+!geth/data2/.gitkeep
 
 parity/data/*
 !parity/data/.gitkeep
+
+*.pid
+*.log
