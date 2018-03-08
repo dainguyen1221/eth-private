@@ -4,7 +4,7 @@ nohup bootnode -nodekey bootnode.key > bootnode.log 2>&1 &
 echo $! > $PWD/bootnode.pid
 echo "Bootnode stared."
 
-sleep 5
+sleep 2
 
 nohup geth \
   --bootnodes enode://744ae75e44fb51f95a92a5ca29f8f8273b2501e3025157e9fca30b01a4baf2c01912dc9269a24b6c14642551d7dc50479244a7e5cd35e09446850730967520f3@127.0.0.1:30301 \
@@ -21,7 +21,7 @@ nohup geth \
 echo $! > $PWD/data1/node.pid
 echo "Node 1 started. Check data1/node.log for more logs"
 
-sleep 10
+sleep 2
 
 nohup geth \
   --bootnodes enode://744ae75e44fb51f95a92a5ca29f8f8273b2501e3025157e9fca30b01a4baf2c01912dc9269a24b6c14642551d7dc50479244a7e5cd35e09446850730967520f3@127.0.0.1:30301 \
