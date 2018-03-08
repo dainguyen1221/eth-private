@@ -18,7 +18,7 @@ $ bash start.sh # Need to install `parity` before you run this script
 ```
 $ cd parity
 
-# Change genesis.json as needed
+# Change genesis.json as needed. Don't touch extraData. Use `puppeth` if you want to change it.
 
 $ bash clean.sh # Run this whenever you want to start over
 $ bash start.sh
