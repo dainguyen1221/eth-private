@@ -11,7 +11,7 @@ nohup geth \
   --datadir "$PWD/data1"  \
   --syncmode 'full' \
   --port 30303  \
-  --rpc --rpcport 8545  \
+  --rpc --rpcport 8540  \
   --wsport 8546 --rpccorsdomain "*"  \
   --wsorigins "*"  \
   --gasprice "0" \

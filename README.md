@@ -11,6 +11,7 @@ $ cd parity
 
 $ bash clean.sh # Run this whenever you want to start over
 $ bash start.sh # Need to install `parity` before you run this script
+$ bash stop.sh # Stop nodes
 ```
 
 ### Geth setup
@@ -22,6 +23,7 @@ $ cd parity
 
 $ bash clean.sh # Run this whenever you want to start over
 $ bash start.sh
+$ bash stop.sh  # Stop nodes
 ```
 
 ### License
